@@ -1,6 +1,8 @@
 # Plataforma Juvenil de Participación
 
-Este repositorio será utilizado para construir progresivamente un proyecto pedagógico sobre participación juvenil, transparencia, control ciudadano y tecnología.
+Aprender cómo la tecnología puede apoyar ejercicios pedagógicos de participación juvenil,
+transparencia y trazabilidad.
+
 
 ## Advertencia
 

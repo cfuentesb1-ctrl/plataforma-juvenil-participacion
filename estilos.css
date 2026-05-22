@@ -1,0 +1,56 @@
+body {
+  font-family: 'Inter', system-ui, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #f5f7fb 0%, #eef2fb 100%);
+  color: #222;
+  -webkit-font-smoothing:antialiased;
+}
+header {
+  background: linear-gradient(90deg,#6b4caf,#8a63d6);
+  color: #fff;
+  padding: 48px 16px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+main {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(41, 39, 56, 0.06);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  display: block;
+  color: rgb(228, 184, 215);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 20px 12px;
+  background: linear-gradient(90deg,#1f1f2e,#2a2a3a);
+  color: #e6e6ef;
+  font-weight: 500;
+  position: relative;
+}
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
