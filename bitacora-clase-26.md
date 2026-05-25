@@ -1,8 +1,8 @@
 # Bitácora Clase 26
 
-Nombre del estudiante:
+Nombre del estudiante:carolina Fuentes Bello
 Fecha:
-Rama:
+Rama:clase-26-inicio-de-proyecto
 
 ## Actividades realizadas
 

@@ -2,33 +2,64 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plataforma Juvenil de Participación</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <header>
-    <h1>Plataforma Juvenil de Participación</h1>
-    <p>Bienvenido a la plataforma para la participación juvenil.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Plataforma Juvenil</h1>
+      <nav class="main-nav">
+        <a href="#">Inicio</a>
+        <a href="#">Proyecto</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+    <div class="hero">
+      <div class="container">
+        <p class="hero-sub">Proyecto académico para aprender participación juvenil, transparencia, control ciudadano y trazabilidad mediante herramientas digitales.</p>
+      </div>
+    </div>
   </header>
-  <main>
+
+  <main class="container">
     <section>
-      <h2>¿Qué es?</h2>
-      <p>Esta plataforma está diseñada para fomentar la participación y el involucramiento de los jóvenes en asuntos comunitarios.</p>
+      <h2>Propósito del proyecto</h2>
+      <p>
+        Esta plataforma se construirá progresivamente como ejercicio pedagógico
+        para comprender cómo la tecnología puede apoyar procesos comunitarios
+        de participación y organización.
+      </p>
     </section>
+
     <section>
-      <h2>Cómo participar</h2>
-      <ul>
-        <li>Explora iniciativas locales.</li>
-        <li>Comparte ideas y propuestas.</li>
-        <li>Colabora con otros jóvenes.</li>
-        <li>Participa en eventos y actividades.</li>
-        <li>Conéctate con líderes comunitarios.</li>
-      </ul>
+      <h2>Advertencia pedagógica</h2>
+      <p>
+        Este proyecto no corresponde a una elección real, no recolecta datos
+        personales reales y no debe utilizarse para hacer acusaciones.
+      </p>
+    </section>
+
+    <section>
+      <h2>Clase 27</h2>
+      <p>
+        En esta clase se mejora la estructura visual del proyecto y se conectan
+        los archivos HTML, CSS y JavaScript.
+      </p>
+
+      <button id="btnMensaje">Ver mensaje de la clase</button>
+      <p id="mensajeClase"></p>
     </section>
   </main>
+
   <footer>
-    <p>&copy; 2026 Plataforma Juvenil</p>
+    <div class="container">
+      <p>Programadores para la Paz - Módulo 3</p>
+    </div>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
